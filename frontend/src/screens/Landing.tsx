@@ -17,7 +17,7 @@ export const Landing = () => {
             }}
             className="w-[20rem] bg-[#81b64c] px-10 py-6 rounded-md text-3xl font-bold"
           >
-            Play Online{" "}
+            Play Online
           </button>
         </div>
       </div>
