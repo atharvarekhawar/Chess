@@ -9,7 +9,6 @@ class Game {
         this.player1 = player1;
         this.player2 = player2;
         this.board = new chess_js_1.Chess();
-        this.moves = [];
         this.startTime = new Date();
         this.player1.send(JSON.stringify({
             type: messages_1.INIT_GAME,
